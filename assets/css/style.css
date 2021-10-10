@@ -1,0 +1,141 @@
+*{
+    font-family: 'Stardos Stencil', cursive;
+    color: goldenrod;
+}
+
+#header .col-md-3 img{
+    width: 150px;
+}
+#header {
+    background-color: #00000085;
+    padding-top:0px ;
+    padding-bottom:0px ;
+}
+#togle{
+    display: none;
+}
+#header #main{
+    margin-top: 40px;
+}
+#header  ul li a{
+    padding: 0px 20px;
+    font-size: 22px;
+    color: goldenrod;
+}
+
+/* videos section start her */
+#videos{
+     background: url('/assets/pics/1.jpg')center;
+}
+ h1{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+#videos .col-md-12 video{
+    margin-top: 30px;
+    border: 5px solid goldenrod;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px 10px;
+    width: 90%;
+}
+#putt2{
+    background: url('/assets/pics/2.jfif')center;
+    background-repeat:round;
+}
+#putt2 .col-md-12 video{
+    margin-top: 30px;
+    border: 5px solid goldenrod;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px 10px;
+    width: 90%;
+}
+#putt3{
+    background: url('/assets/pics/3.jpg')center;
+    background-repeat:round;
+}
+#putt3 .col-md-12 video{
+    margin-top: 30px;
+    border: 5px solid goldenrod;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px 10px;
+    width: 90%;
+}
+
+
+
+
+#about{
+    margin-top: 30px;
+    background-color: #34495e;
+    color: white;
+}
+#about h4{
+    margin-top: 30px;
+    text-align: start;
+}
+.section h4{
+    color: white;
+    text-align: start;
+    margin-bottom: 40px;
+}
+.section h4::after{
+    background-color:white;
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin:  20px 0;
+}
+
+#about p{
+    text-align: start;
+    font-size: 17px;
+    color: white;
+}
+#about .list-inline-item:before{
+    content: "\f101";
+    font-family: fontawesome;
+    font-size: 17px;
+    
+    padding-right: 10px;
+}
+#about ul{
+    text-align: start;
+}
+#about ul li a {
+    color: white;
+   
+}
+#about address{
+    text-align: start;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    color: blue;
+}
+
+@media(max-width:992px){
+    #header {
+        text-align: center;
+    }
+    h1{
+        font-size: 90px;
+    }
+    video{
+        width: 100%;
+    }
+}
+
+@media(max-width:576px){
+    h1{
+        font-size: 60px;
+    }
+}
